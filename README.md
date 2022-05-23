@@ -62,13 +62,13 @@ superManager=["0x862f23de306f0a35c122b11a6f0769570913d542"]
   * 目录：程序文件解压目录./ycc-para/
   * 操作：
     * ①修改配置，添加钱包助记词与账户私钥
-      * vim Makefile
+      > vim Makefile
     * ②修改以下包含汉字的内容
-      * @./ycc-cli --rpc_laddr=$(http_port) seed save -s "助记词"  -p 密码
-      * @./ycc-cli --rpc_laddr=$(http_port) account import_key -k "私钥" -t 2 -l "genness"
-      * @./ycc-cli --rpc_laddr=$(http_port) wallet unlock -p 密码
+      > @./ycc-cli --rpc_laddr=$(http_port) seed save -s "助记词"  -p 密码<br>
+      > @./ycc-cli --rpc_laddr=$(http_port) account import_key -k "私钥" -t 2 -l "genness"<br>
+      > @./ycc-cli --rpc_laddr=$(http_port) wallet unlock -p 密码<br>
     * ③导入钱包与账户
-      * 执行指令：make init	
+      > 执行指令：make init	
 
 ### 方式二：通过其他节点
   * 环境：本地或其他具有主链或平行链节点运行的环境
