@@ -86,7 +86,7 @@ superManager=["0x862f23de306f0a35c122b11a6f0769570913d542"]
 
 ## 附件：资源
 >[YCC平行链资源包:](https://ycc12.oss-cn-heyuan.aliyuncs.com/ycc-para.zip) 见仓库目录./installfile/<br>
->`YCC主链节点地址：`121.52.224.86:9902/122.9.166.199:9902/https://mainnet.yuan.org/api
+>`YCC主链节点地址：`121.52.224.86:9902/122.9.166.199:9902/https://mainnet.yuan.org/api<br>
 >`币钱包下载地址:`https://d.biqianbao.net/
 
 
